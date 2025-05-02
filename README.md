@@ -9,28 +9,20 @@ Windows Terminal veya CMD
 
 1. Depoyu Klonla
 ```bash
-Kopyala
-Düzenle
 git clone https://github.com/kullaniciadi/localizer.git
 cd localizer
 ```
 2. Derleme (Windows için)
 ```bash
-Kopyala
-Düzenle
 g++ -o local local.cpp
 Eğer g++ komutu tanınmıyorsa, MinGW veya benzeri bir C++ derleyicisini sistem PATH’ine ekleyin.
 ```
 3. Çalıştırma
 ```bash
-Kopyala
-Düzenle
 ./local
 ```
 Windows’ta çalıştırırken
 ```bash
-Kopyala
-Düzenle
 local.exe
 ```
 Control edin! Terminal'i path'e ekleyerek uzantı araçlarıyla çalıştırabilirsiniz. Ayarladığınız araç parametreleri path ile uyumlu olmalıdır.
